@@ -1,0 +1,15 @@
+
+
+body {
+    font-family: cursive;
+    background-image: url("images/bg.jpg");
+}
+
+#tabletext{
+    text-align: center;
+
+}
+#head{
+    text-align: center;
+    color: blue;
+}

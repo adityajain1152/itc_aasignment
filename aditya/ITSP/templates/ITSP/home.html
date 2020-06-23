@@ -1,0 +1,23 @@
+{% extends 'ITSP/base.html' %}
+{% block body %}
+
+
+
+<div class="container p-3">
+  <table class="table" id="tabletext">
+    <tr class="table-primary">
+      <th>ITSP Team Name</th>
+    </tr>
+
+{% for team in all_teams %}
+    <tr class="table-success">
+    <td>
+    <a href="{% url 'team' team.teamid %}">{{ team.team_name }}</li>
+    </td></tr>
+{% endfor %}
+{% endblock body %}
+
+
+</table>
+
+</div>

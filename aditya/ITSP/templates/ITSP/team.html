@@ -1,0 +1,25 @@
+{% extends 'ITSP/base.html' %}
+{% block body %}
+<h1 id="head">{{ team.team_name }}</h1>
+<div class="container p-3">
+  <table class="table" id="tabletext">
+    <tr class="table-primary">
+      <th>Team ID</th>
+      <th>Member1</th>
+      <th>Member2</th>
+      <th>Member3</th>
+      <th>Member4</th>
+    </tr>
+
+    <tr class="table-success">
+    <td>{{ team.teamid }}</td>
+    <td>{{ team.team_mem1 }}</td>
+    <td>{{ team.team_mem2 }}</td>
+    <td>{{ team.team_mem3 }}</td>
+    <td>{{ team.team_mem4 }}</td>
+    </tr>
+  </table>
+</div>
+
+
+{% endblock %}

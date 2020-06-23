@@ -1,0 +1,18 @@
+.nav-bar {
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  position: fixed;
+  height: 60px;
+  background-color: rgb(4, 36, 49);
+  color: rgb(16, 231, 185);
+  width: 100%;
+}
+
+.start{
+  padding-top: 70px;
+}
+
+#tabletext{
+  text-align: center;
+}
