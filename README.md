@@ -1,4 +1,4 @@
-# itc_aasignment
+# itc_assignment
 # Instructions to run frontend part
 
 First run this command to install modules:
@@ -7,7 +7,7 @@ Then to start the app:
 # npm start
 Open http://localhost:3000 to view it in the browser.
 
-#Instructions to run backend part(the one in aditya folder)
+# Instructions to run backend part(the one in aditya folder)
 
 First install django restframework using:
 # pip install djangorestframework
